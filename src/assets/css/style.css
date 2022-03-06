@@ -1,0 +1,329 @@
+/* AccountSettingPage */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap");
+
+p {
+  margin: 0;
+}
+
+.clip-contents {
+  overflow: hidden;
+}
+
+.flex-col-hstart-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-col-hcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-col-hend {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.flex-row-vend-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.flex-row-vstart-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-col-hcenter-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.user-header-bar {
+  padding: 16px 327px 18px 325px;
+  box-sizing: border-box;
+  background-color: rgba(254, 210, 6, 1);
+  width: 100%;
+}
+
+.txt-261 {
+  font-size: 36px;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  width: 123px;
+  height: 34px;
+  word-wrap: break-word;
+  margin-right: 23px;
+}
+
+.txt-278 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  word-wrap: break-word;
+}
+
+.search-input {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  width: 300px;
+  height: 26px;
+}
+
+.search-button {
+  background-color: rgba(234, 234, 234, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  width: 30px;
+  height: 26px;
+  margin-right: 149px;
+}
+
+.txt-729 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+  margin-right: 21px;
+}
+
+.group-1051 {
+  padding: 4px 8px 3px 9px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: rgba(234, 234, 234, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  width: 70px;
+  height: fit-content;
+}
+
+.txt-923 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.menu-bar {
+  padding: 0px 700px 12px 471px;
+  margin-bottom: 21px;
+  box-sizing: border-box;
+  background-color: rgba(254, 210, 6, 1);
+  width: 100%;
+}
+
+.txt-729 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+  margin-right: 21px;
+}
+
+.txt-923 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+/* AccountSettingPage -> sidebar & form */
+.main-container {
+  margin-bottom: 200px;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+.sidebar {
+  padding: 57px 31px 91px 38px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background-color: rgba(196, 196, 196, 1);
+  height: 100%;
+}
+
+.sidebar__header {
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+  margin-bottom: 78px;
+}
+
+.sidebar__navlink {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+
+.form-container {
+  padding: 57px 349px 77px 40px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background-color: rgba(196, 196, 196, 1);
+  height: 100%;
+}
+
+.form-control > label {
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  word-wrap: break-word;
+  margin-bottom: 9px;
+}
+
+.form-control > input {
+  background-color: rgba(255, 255, 255, 1);
+  width: 229px;
+  height: 25px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.reset-password-input {
+  padding: 4px 129px 2px 3px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  height: 25px;
+  width: fit-content;
+}
+
+.txt-475 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: rgba(196, 196, 196, 1);
+  word-wrap: break-word;
+}
+/* END OF AccountSettingPage -> sidebar & form */
+
+/* Reviewform */
+.review-form-container {
+  padding: 11px 17px 10px 19px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  width: 620px;
+  height: 180px;
+}
+
+.review-form-target {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  word-wrap: break-word;
+  margin-bottom: 4px;
+}
+
+.comment-form > textarea {
+  background-color: rgba(196, 196, 196, 1);
+  height: 78px;
+  margin-bottom: 11px;
+  width: fit-content;
+  resize: none;
+}
+
+
+.comment-form > button {
+  padding: 2px 18px 0px 18px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: rgba(77, 137, 255, 1);
+  height: 17px;
+  width: fit-content;
+}
+
+.comment-form > button {
+  font-size: 10px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+/* END OF Reviewform */
+
+.footer-bar {
+  padding: 34px 627px 10px 514px;
+  box-sizing: border-box;
+  background-color: rgba(254, 210, 6, 1);
+  width: 100%;
+}
+
+.group-766 {
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+.txt-707 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+  margin-right: 99px;
+}
+
+.txt-923 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.txt-688 {
+  font-size: 10px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  word-wrap: break-word;
+}
