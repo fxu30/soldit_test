@@ -8,6 +8,7 @@ import SignUpPage from './pages/SignUpPage';
 import SellerReviewPage from './pages/SellerReviewPage';
 import ContactUsPage from './pages/ContactUsPage';
 import SignInPage from './pages/SignInPage';
+import Footer from './components/Footer';
 
 
 
@@ -19,9 +20,10 @@ function App() {
       {/* <SignUpPage /> */}
       {/* <SellerReviewPage /> */}
 
-      {/* <SignInPage /> */}
-      <ContactUsPage />
+      <SignInPage />
+      {/* <ContactUsPage /> */}
       
+      <Footer />
     </div>
 
   );

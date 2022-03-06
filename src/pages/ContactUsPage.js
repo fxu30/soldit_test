@@ -6,7 +6,7 @@ import Header from '../components/Header'
 const ContactUsPage = () => {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <ContactUs />
 
             <Footer />
