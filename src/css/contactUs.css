@@ -1,0 +1,332 @@
+/* Contactuspage */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;600;700&display=swap");
+
+p {
+  margin: 0;
+}
+
+.clip-contents {
+  overflow: hidden;
+}
+
+.flex-col-hstart-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-col-hcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-row-vend-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.flex-hcenter {
+  justify-content: center;
+}
+
+.flex-hend {
+  justify-content: flex-end;
+}
+
+.flex-row-vstart-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-col-hcenter-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-us-page {
+  background-color: rgba(255, 255, 255, 1);
+  width: 1440px;
+  height: 1024px;
+}
+
+.vistor-header-bar {
+  padding: 16px 327px 18px 325px;
+  box-sizing: border-box;
+  background-color: rgba(254, 210, 6, 1);
+  width: 100%;
+}
+
+.txt-664 {
+  font-size: 36px;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  width: 123px;
+  height: 34px;
+  word-wrap: break-word;
+  margin-right: 23px;
+}
+
+.search-input {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  width: 300px;
+  height: 26px;
+}
+
+.search-button {
+  background-color: rgba(234, 234, 234, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  width: 30px;
+  height: 26px;
+  margin-right: 102px;
+}
+
+.txt-352 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(77, 137, 255, 1);
+  word-wrap: break-word;
+  margin-right: 2px;
+}
+
+.txt-4310 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+  margin-right: 2px;
+}
+
+.txt-368 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(77, 137, 255, 1);
+  text-align: right;
+  word-wrap: break-word;
+  margin-right: 26px;
+}
+
+.group-054 {
+  padding: 4px 8px 3px 9px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: rgba(234, 234, 234, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  width: 70px;
+  height: fit-content;
+}
+
+.txt-311 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.menu-bar {
+  padding: 0px 700px 12px 471px;
+  margin-bottom: 35px;
+  box-sizing: border-box;
+  background-color: rgba(254, 210, 6, 1);
+  width: 100%;
+}
+
+.txt-255 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+  margin-right: 21px;
+}
+
+.txt-311 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.txt-717 {
+  font-size: 48px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  word-wrap: break-word;
+  margin-bottom: 27px;
+}
+
+.txt-2551 {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  width: 768px;
+  word-wrap: break-word;
+  margin-bottom: 88px;
+}
+
+.group-4 {
+  margin-bottom: 62px;
+  box-sizing: border-box;
+  width: 40%;
+}
+
+.txt-470 {
+  font-size: 24px;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  width: 152px;
+  word-wrap: break-word;
+  margin-bottom: 17px;
+}
+
+.group-8102 {
+  padding: 6px 662px 4px 7px;
+  margin-bottom: 18px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(196, 196, 196, 1);
+  height: 29px;
+  width: 100%;
+}
+
+.txt-215 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(196, 196, 196, 1);
+  text-align: center;
+  width: 53px;
+  word-wrap: break-word;
+}
+
+.group-295 {
+  padding: 6px 657px 4px 15px;
+  margin-bottom: 18px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(196, 196, 196, 1);
+  height: 29px;
+  width: 100%;
+}
+
+.txt-929 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(196, 196, 196, 1);
+  width: 50px;
+  word-wrap: break-word;
+}
+
+.group-737 {
+  padding: 6px 576px 175px 14px;
+  margin-bottom: 13px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(196, 196, 196, 1);
+  height: 200px;
+  width: fit-content;
+}
+
+.txt-637 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(196, 196, 196, 1);
+  width: 131px;
+  word-wrap: break-word;
+}
+
+.group-940 {
+  padding: 15px 285px 14px 303px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: rgba(77, 137, 255, 1);
+  height: 48px;
+  width: fit-content;
+}
+
+.txt-2151 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 133px;
+  word-wrap: break-word;
+}
+
+.footer-bar {
+  padding: 34px 627px 10px 614px;
+  box-sizing: border-box;
+  background-color: rgba(254, 210, 6, 1);
+  width: 100%;
+}
+
+.group-543 {
+  margin-bottom: 24px;
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+.txt-351 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+  margin-right: 99px;
+}
+
+.txt-311 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.txt-362 {
+  font-size: 10px;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  word-wrap: break-word;
+}
